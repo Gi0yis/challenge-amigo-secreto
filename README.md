@@ -4,6 +4,19 @@ Este proyecto es una aplicación web simple para organizar un sorteo de "Amigo S
 
 Este challenge es parte del programa Oracle Next Education con Alura Latam.
 
+### Como Funciona
+
+A continuación, se muestran algunas capturas de pantalla que ilustran el funcionamiento de la aplicación:
+
+1. **Interfaz Principal**: Aquí puedes agregar los nombres de los amigos.
+    ![Interfaz Principal](assets/interfaz-principal.png)
+
+2. **Lista de Amigos**: Los nombres agregados se muestran en una lista.
+    ![Lista de Amigos](assets/lista-amigos.png)
+
+3. **Resultado del Sorteo**: El resultado del sorteo se muestra después de hacer clic en el botón de sorteo.
+    ![Resultado del Sorteo](assets/resultado-sorteo.png)
+
 ## Estructura del Proyecto
 
 El proyecto tiene la siguiente estructura de archivos:
@@ -17,7 +30,6 @@ index.html
 README.md
 style.css
 ```
-
 
 ### Archivos Principales
 
