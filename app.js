@@ -1,6 +1,6 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let listaAmigos = [];
 
+// Agrega un amigo a la lista. Si el usuario no escribe nada, emite una alerta
 function agregarAmigo(){
     let amigo = document.getElementById('amigo');
 
@@ -14,6 +14,7 @@ function agregarAmigo(){
     }
 }
 
+// Muestra los nombres que se van agregando a la lista
 function actualizarAmigos() {
     let mostarLista = document.getElementById('listaAmigos');
     asignarTextoElemento('listaAmigos', '');
@@ -25,6 +26,7 @@ function actualizarAmigos() {
     }
 }
 
+// Escoge un nombre aleatorio de la lista
 function sortearAmigo() {
     let numeroAleatorio = Math.floor(Math.random()*listaAmigos.length);
     asignarTextoElemento('listaAmigos', '');
@@ -32,7 +34,8 @@ function sortearAmigo() {
     asignarTextoElemento('resultado', amigoSecreto);
 }
 
+// Permite asignar un texto a un elemento HTML
 function asignarTextoElemento(elemento, texto) {
-    let elemtoHTML = document.getElementById(elemento);
-    elemtoHTML.innerHTML = texto;
+    let elementoHTML = document.getElementById(elemento);
+    elementoHTML.innerHTML = texto;
 }
