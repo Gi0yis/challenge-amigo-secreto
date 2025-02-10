@@ -101,4 +101,4 @@ Para ejecutar la aplicación, sigue estos pasos:
     cd challenge-amigo-secreto
     ```
 
-3. Abre el archivo [index.html](http://_vscodecontentref_/4) en tu navegador web. La interfaz de usuario te permitirá agregar nombres y realizar el sorteo de "Amigo Secreto".
+3. Abre el archivo **index.html** en tu navegador web. La interfaz de usuario te permitirá agregar nombres y realizar el sorteo de "Amigo Secreto".
