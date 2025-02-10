@@ -1,8 +1,8 @@
-# Proyecto Amigo Secreto
+# challenge Amigo Secreto
 
 Este proyecto es una aplicación web simple para organizar un sorteo de "Amigo Secreto". La aplicación permite a los usuarios agregar nombres de amigos a una lista y luego sortear aleatoriamente un nombre de la lista para determinar quién será el "Amigo Secreto".
 
-Este proyecto es parte del programa Oracle Next Education con Alura Latam.
+Este challenge es parte del programa Oracle Next Education con Alura Latam.
 
 ## Estructura del Proyecto
 
@@ -89,6 +89,16 @@ style.css
 
 ### Ejecución
 
-Para ejecutar la aplicación, simplemente abre el archivo [index.html](http://_vscodecontentref_/7) en un navegador web. La interfaz de usuario te permitirá agregar nombres y realizar el sorteo de "Amigo Secreto".
+Para ejecutar la aplicación, sigue estos pasos:
 
-¡Disfruta organizando tu sorteo de Amigo Secreto con esta aplicación!
+1. Clona el repositorio en tu máquina local:
+    ```sh
+    git clone https://github.com/Gi0yis/challenge-amigo-secreto.git
+    ```
+
+2. Navega al directorio del proyecto:
+    ```sh
+    cd challenge-amigo-secreto
+    ```
+
+3. Abre el archivo [index.html](http://_vscodecontentref_/4) en tu navegador web. La interfaz de usuario te permitirá agregar nombres y realizar el sorteo de "Amigo Secreto".
